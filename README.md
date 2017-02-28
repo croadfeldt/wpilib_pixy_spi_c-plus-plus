@@ -1,4 +1,4 @@
-NOTE: This is NOT ready yet, working on the port right now. Will remove this note when it's ready.
+NOTE: Code is working. There is optimization to be done and features to add, but the core functionality is there.
 
 Will fill more of this in later, but for now.
 
