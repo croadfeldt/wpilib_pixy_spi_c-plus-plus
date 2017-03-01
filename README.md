@@ -2,11 +2,11 @@ NOTE: Code is working. There is optimization to be done and features to add, but
 
 Will fill more of this in later, but for now.
 
-This is a complete eclipse project of wpilib java for the FRC 2017 season. This includes a subsystem that reads data from a Pixy camera over SPI.
+This is a complete eclipse project of wpilib C++ for the FRC 2017 season. This includes a subsystem that reads data from a Pixy camera over SPI.
 
-Look over Vision.java in the subsystems directory for an example of how to loop through the pixy data.
+Look over Vision.cpp and Vision.h in the subsystems directory for an example of how to loop through the pixy data.
 
-Debugging to the SmartDashboard and to the console / FRC_userprogram_log is included, but turned off by default. Turning on debugging by changing the debug value in PixySPI.java. The code will drop data if you turn on logging / console debugging. It appears less data is lost using just SmartDashboard debugging. Debugging is off by default.
+Debugging to the SmartDashboard and to the console / FRC_userprogram_log is included, but turned off by default. Turning on debugging with built setDebugLvl method of the PixySPI pbject . The code will drop data if you turn on logging / console debugging. It appears less data is lost using just SmartDashboard debugging. Debugging is off by default.
 
 Values available.
 Signature, center X, center Y, Width, Height for each object.
